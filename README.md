@@ -1,6 +1,8 @@
 
 # Pazarama iOS Bootcamp - Hafta 2 - Ödev  
- 
+
+![RPReplay_Final16647444501](https://user-images.githubusercontent.com/49480936/193476627-0c9cfe80-b1c2-4063-b722-071529338d0f.gif)
+
 Bilimsel Hesap Makinesi  
 Eğitimlerde üstünde çalıştığımız hesap makinesinin geliştirmesinin tamamlanması ve basit
 hesap makinesinin, çeşitli fonksiyonlar eklenerek(karekök, üs alma vb.) bilimsel hesap
