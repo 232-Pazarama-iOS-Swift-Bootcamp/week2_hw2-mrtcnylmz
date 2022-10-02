@@ -50,25 +50,19 @@ class ViewController: UIViewController {
     }
     
     @IBAction func sciOperationsButtonTapped(_ sender: UIButton) {
+        baseNumber = Double(displayLabel.text!)!
         switch sender.currentTitle! {
         case "X²":
-            baseNumber = Double(displayLabel.text!)!
             displayLabel.text! = String(baseNumber * baseNumber)
-            historyLabel.text! = displayLabel.text!
-            isCalculated = true
         case "x³":
-            baseNumber = Double(displayLabel.text!)!
             displayLabel.text! = String(baseNumber * baseNumber * baseNumber)
-            historyLabel.text! = displayLabel.text!
-            isCalculated = true
         case "√x":
-            baseNumber = Double(displayLabel.text!)!
             displayLabel.text! = String(baseNumber.squareRoot())
-            historyLabel.text! = displayLabel.text!
-            isCalculated = true
         default:
             break
         }
+        historyLabel.text! = displayLabel.text!
+        isCalculated = true
     }
     
     @IBAction func operationButtonTapped(_ sender: UIButton) {
