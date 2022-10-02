@@ -76,31 +76,22 @@ class ViewController: UIViewController {
             switch sender.currentTitle! {
             case "*":
                 baseNumber *= Double(displayLabel.text!)!
-                displayLabel.text! = "0"
-                isCalculated = false
-                isDotted = false
                 lastOperation = "*"
             case "/":
                 baseNumber /= Double(displayLabel.text!)!
-                displayLabel.text! = "0"
-                isCalculated = false
-                isDotted = false
                 lastOperation = "/"
             case "-":
                 baseNumber = baseNumber - Double(displayLabel.text!)!
-                displayLabel.text! = "0"
-                isCalculated = false
-                isDotted = false
                 lastOperation = "-"
             case "+":
                 baseNumber += Double(displayLabel.text!)!
-                displayLabel.text! = "0"
-                isCalculated = false
-                isDotted = false
                 lastOperation = "+"
             default:
                 break
             }
+            displayLabel.text! = "0"
+            isCalculated = false
+            isDotted = false
         }
     }
     
